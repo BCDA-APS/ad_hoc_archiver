@@ -15,6 +15,21 @@ CONTENTS
   - [Install the QuickStart Demo](#install-the-quickstart-demo)
     - [Initial Installation Notes](#initial-installation-notes)
 
+## Observations
+
+### Needs MySQL
+
+The [install guide](https://slacmshankar.github.io/epicsarchiver_docs/installguide.html) describes the need for a *persistence provider*, such as MySQL.
+
+![need MySQL or equal](./images/ouch.png "need MySQL or equal")
+
+There is a [pull request waiting for SqLite](https://github.com/slacmshankar/epicsarchiverap/pull/128) as an alternative persistence provider.  Until,
+this is a killer requirement since beam lines cannot stand up their own MySQL servers.
+
+### Uses Py2.7
+
+Also, the archive appliance uses several Python scripts.  Since many of them are still Python2, this is a minor nuisance, requiring the default `python` to be Python 2.7.  (Can satisfy this by creating and activating a custom Python environment providing python 2.7 as default.)  An [issue has been created](https://github.com/slacmshankar/epicsarchiverap/issues/141) for this observation.
+
 ## Goals
 
 Install EPICS Archiver Appliance for beam line use.
