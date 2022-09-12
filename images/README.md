@@ -6,4 +6,4 @@ First successful image of working EPICS Archive Appliance (used QuickStart):
   - Started a monitor on `gp:m1` (a motor record), waited until the archiver appliance
     reported an observation, then ran three Bluesky scans across a "peak".
     The lower window shows a plot of detector (`noisy`) vs. `gp:m1` position, the
-    upper window tracks the `gp:m1` position as the scan progressed.
+    upper window tracks the `gp:m1` position as each scan progressed.
