@@ -79,6 +79,8 @@ export ARCHAPPL_LONG_TERM_FOLDER=${ARCHAPPL_STORAGE}/lts/ArchiverStore
 
 ## Install the QuickStart Demo
 
+note: see [image](/images/README.md)
+
 Install from scratch following the [EPICS Archiver Appliance Quick Start Guide](https://slacmshankar.github.io/epicsarchiver_docs/quickstart.html):
 
 - Download Java 16+ (openjdk 18.0.2.1)
