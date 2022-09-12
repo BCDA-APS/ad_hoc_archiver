@@ -25,5 +25,5 @@ CONTENTS
 ## Examples
 
 - [CSS Channel Archiver](#examples) : installed on `/APSshare` (...)
-- [EPICS Archiver Appliance](./epicsarchiver_appliance.md)
+- [EPICS Archiver Appliance](./epicsarchiver_appliance.md) - needs MySQL server
 - [images](/images/README.md)
